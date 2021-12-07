@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 
 sudo apt install -y virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
