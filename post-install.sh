@@ -3,8 +3,6 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt install linux-headers-$(uname -r) build-essential dkms
-cd /media/$USER/VBox*
-sudo ./VBoxLinuxAdditions.run
+sudo apt install -y virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
-sudo apt install python3-pip python3-pytest python3-pytest-bdd
+sudo apt install -y python3-pip python3-pytest python3-pytest-bdd python3-behave gitk gitg
